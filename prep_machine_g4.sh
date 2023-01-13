@@ -27,6 +27,5 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
             sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 sudo apt-get update
 sudo apt-get install -y nvidia-docker2 nvidia-container-toolkit
-sudo shutdown -r now
 
 # test gpu with nvidia-smi command
